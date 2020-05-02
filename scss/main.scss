@@ -168,38 +168,71 @@ main {
   animation-timing-function: ease;
   animation-fill-mode: forwards;
 }
-.container li.html:after {
-  animation-name: html;
+.container li.skill-1:after {
+  animation-name: skill-1;
 }
-@keyframes html {
+@keyframes skill-1 {
   to {
     width: 90%;
   }
 }
-.container li.css:after {
-  animation-name: css;
+.container li.skill-2:after {
+  animation-name: skill-2;
 }
-@keyframes css {
+@keyframes skill-2 {
   to {
     width: 80%;
   }
 }
-.container li.python:after {
-  animation-name: python;
+.container li.skill-3:after {
+  animation-name: skill-3;
 }
-@keyframes python {
+@keyframes skill-3 {
   to {
-    width: 60%;
+    width: 88%;
   }
 }
-.container li.javascript:after {
-  animation-name: javascript;
+.container li.skill-4:after {
+  animation-name: skill-4;
 }
-@keyframes javascript {
+@keyframes skill-4 {
+  to {
+    width: 78%;
+  }
+}
+.container li.skill-5:after {
+  animation-name: skill-5;
+}
+@keyframes skill-5 {
+  to {
+    width: 90%;
+  }
+}
+.container li.skill-6:after {
+  animation-name: skill-6;
+}
+@keyframes skill-6 {
   to {
     width: 70%;
   }
 }
+.container li.skill-7:after {
+  animation-name: skill-7;
+}
+@keyframes skill-7 {
+  to {
+    width: 80%;
+  }
+}
+.container li.skill-8:after {
+  animation-name: skill-8;
+}
+@keyframes skill-8 {
+  to {
+    width: 85%;
+  }
+}
+
 // .skills {
 //   list-style: none;
 //   text-align: left;
@@ -233,14 +266,14 @@ main {
 //           animation: css 2s;
 //         }
 
-//         .javascript {
+//         .skill-4 {
 //           width: 70%;
-//           animation: javascript 2s;
+//           animation: skill-4 2s;
 //         }
 
-//         .python {
+//         .skill-3 {
 //           width: 85%;
-//           animation: python 2s;
+//           animation: skill-3 2s;
 //         }
 
 //         .cpp {
@@ -269,7 +302,7 @@ main {
 //     }
 //   }
 
-//   @keyframes javascript {
+//   @keyframes skill-4 {
 //     0% {
 //       width: 0%;
 //     }
@@ -278,7 +311,7 @@ main {
 //     }
 //   }
 
-//   @keyframes python {
+//   @keyframes skill-3 {
 //     0% {
 //       width: 0%;
 //     }

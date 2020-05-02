@@ -57,14 +57,14 @@
       height: 250px;
       background: url("../img/portrait.jpg");
       border-radius: 50%;
-      border: solid 3px #00c0ff; }
+      border: solid 3px #eeff00; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
     transition: all 0.5s ease-out; }
     .menu .nav-item.show {
       transform: translate3d(0, 0, 0); }
     .menu .nav-item.current > a {
-      color: #00c0ff; }
+      color: #eeff00; }
   .menu .nav-link {
     display: inline-block;
     position: relative;
@@ -76,7 +76,7 @@
     text-decoration: none;
     transition: all 0.5s ease-out; }
     .menu .nav-link:hover {
-      color: #00c0ff; }
+      color: #eeff00; }
 
 .nav-item:nth-child(1) {
   transition-delay: 0.1s; }
@@ -115,7 +115,7 @@ body {
       width: 100%;
       height: 100%;
       z-index: -1;
-      background: rgba(51, 51, 51, 0.9); }
+      background: rgba(51, 51, 51, 0.6); }
 
 h1,
 h2,
@@ -143,7 +143,7 @@ header {
   width: 100%; }
 
 .text-secondary {
-  color: #00c0ff; }
+  color: #eeff00; }
 
 main {
   padding: 4rem;
@@ -153,7 +153,7 @@ main {
     main .icons a {
       padding: 0.4rem; }
       main .icons a:hover {
-        color: #00c0ff;
+        color: #eeff00;
         transition: all 0.5s ease-out; }
   main#home {
     overflow: hidden; }
@@ -169,7 +169,7 @@ main {
     grid-area: bioimage;
     margin: auto;
     border-radius: 50%;
-    border: #00c0ff 3px solid; }
+    border: #eeff00 3px solid; }
   .about-info .bio {
     grid-area: bio;
     font-size: 1.5rem; }
@@ -182,7 +182,7 @@ main {
   .about-info .job {
     background: #404040;
     padding: 0.5rem;
-    border-bottom: #00c0ff 5px solid; }
+    border-bottom: #eeff00 5px solid; }
 
 .projects {
   display: grid;
@@ -193,7 +193,7 @@ main {
     border: 3px #fff solid; }
     .projects img:hover {
       opacity: 0.5;
-      border-color: #00c0ff;
+      border-color: #eeff00;
       transition: all 0.5s ease-out; }
 
 .container {
@@ -231,33 +231,61 @@ main {
   animation-timing-function: ease;
   animation-fill-mode: forwards; }
 
-.container li.html:after {
-  animation-name: html; }
+.container li.skill-1:after {
+  animation-name: skill-1; }
 
-@keyframes html {
+@keyframes skill-1 {
   to {
     width: 90%; } }
 
-.container li.css:after {
-  animation-name: css; }
+.container li.skill-2:after {
+  animation-name: skill-2; }
 
-@keyframes css {
+@keyframes skill-2 {
   to {
     width: 80%; } }
 
-.container li.python:after {
-  animation-name: python; }
+.container li.skill-3:after {
+  animation-name: skill-3; }
 
-@keyframes python {
+@keyframes skill-3 {
   to {
-    width: 60%; } }
+    width: 88%; } }
 
-.container li.javascript:after {
-  animation-name: javascript; }
+.container li.skill-4:after {
+  animation-name: skill-4; }
 
-@keyframes javascript {
+@keyframes skill-4 {
+  to {
+    width: 78%; } }
+
+.container li.skill-5:after {
+  animation-name: skill-5; }
+
+@keyframes skill-5 {
+  to {
+    width: 90%; } }
+
+.container li.skill-6:after {
+  animation-name: skill-6; }
+
+@keyframes skill-6 {
   to {
     width: 70%; } }
+
+.container li.skill-7:after {
+  animation-name: skill-7; }
+
+@keyframes skill-7 {
+  to {
+    width: 80%; } }
+
+.container li.skill-8:after {
+  animation-name: skill-8; }
+
+@keyframes skill-8 {
+  to {
+    width: 85%; } }
 
 .boxes {
   display: flex;
@@ -273,7 +301,7 @@ main {
     transition: all 0.5s ease-out; }
     .boxes div:hover {
       padding: 0.5rem 1.5rem;
-      background: #00c0ff;
+      background: #eeff00;
       color: #000; }
       .boxes div:hover span {
         color: #000; }
@@ -284,7 +312,7 @@ main {
   border: 0;
   margin-bottom: 0.3rem; }
   .btn:hover, .btn-dark:hover, .btn-light:hover {
-    background: #00c0ff;
+    background: #eeff00;
     color: #000; }
 
 .btn-dark {

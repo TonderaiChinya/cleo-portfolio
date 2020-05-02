@@ -1,9 +1,9 @@
 {
-  "name": "tonderai",
+  "name": "clopas",
   "version": "1.0.0",
-  "description": "tonderai chinya portfolio",
+  "description": "clopas chinya portfolio",
   "main": "index.js",
-  "homepage": "https://tonderaichinya.github.io/My-Portfolio",
+  "homepage": "https://tonderaichinya.github.io/cleo-portfolio",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
     "deploy": "gh-pages -d dist"

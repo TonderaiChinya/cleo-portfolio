@@ -323,12 +323,40 @@ main {
   background: #b3b3b3;
   color: #333; }
 
+/* footer */
 #main-footer {
+  margin-top: 0;
   text-align: center;
-  padding: 1rem;
   background: #1a1a1a;
   color: #fff;
-  height: 60px; }
+  color: #fff;
+  height: 73px; }
+
+.sig {
+  padding: 1rem;
+  float: left;
+  font-size: 14px; }
+
+.author {
+  font-size: 10px;
+  padding: 0.5rem;
+  float: right; }
+
+.author-logo img {
+  padding: 5px;
+  width: 50px;
+  border-radius: 25px; }
+
+.author-logo {
+  float: right; }
+
+.author-info {
+  margin-top: 10px;
+  float: left; }
+
+.author-info a {
+  font-weight: bolder;
+  color: deepskyblue; }
 
 @media screen and (min-width: 1171px) {
   .projects {

@@ -233,103 +233,6 @@ main {
   }
 }
 
-// .skills {
-//   list-style: none;
-//   text-align: left;
-//   width: 70%;
-//   margin: 60px auto;
-
-//   li {
-//     margin: 20px 0;
-
-//     .bar {
-//       // background: $secondary-color;
-//       display: block;
-//       height: 5px;
-//       border: 1px solid white;
-//       border-radius: 3px;
-//       overflow: hidden;
-//       box-shadow: 0 0 10px #2187e7b3;
-
-//       span {
-//         height: 2px;
-//         float: left;
-//         background: $secondary-color;
-
-//         .html {
-//           width: 90%;
-//           animation: html 2s;
-//         }
-
-//         .css {
-//           width: 75%;
-//           animation: css 2s;
-//         }
-
-//         .skill-4 {
-//           width: 70%;
-//           animation: skill-4 2s;
-//         }
-
-//         .skill-3 {
-//           width: 85%;
-//           animation: skill-3 2s;
-//         }
-
-//         .cpp {
-//           width: 60%;
-//           animation: cpp 2s;
-//         }
-//       }
-//     }
-//   }
-
-//   @keyframes html {
-//     0% {
-//       width: 0%;
-//     }
-//     100% {
-//       width: 90%;
-//     }
-//   }
-
-//   @keyframes css {
-//     0% {
-//       width: 0%;
-//     }
-//     100% {
-//       width: 75%;
-//     }
-//   }
-
-//   @keyframes skill-4 {
-//     0% {
-//       width: 0%;
-//     }
-//     100% {
-//       width: 70%;
-//     }
-//   }
-
-//   @keyframes skill-3 {
-//     0% {
-//       width: 0%;
-//     }
-//     100% {
-//       width: 85%;
-//     }
-//   }
-
-//   @keyframes cpp {
-//     0% {
-//       width: 0%;
-//     }
-//     100% {
-//       width: 60%;
-//     }
-//   }
-// }
-
 // Contact page
 .boxes {
   display: flex;
@@ -380,12 +283,48 @@ main {
   color: #333;
 }
 
+// #main-footer {
+//   text-align: center;
+//   padding: 1rem;
+
+//   height: 60px;
+// }
+
+/* footer */
 #main-footer {
+  margin-top: 0;
   text-align: center;
-  padding: 1rem;
+
   background: darken($primary-color, 10);
   color: set-text-color($primary-color);
-  height: 60px;
+  color: #fff;
+  height: 73px;
 }
 
+.sig {
+  padding: 1rem;
+  float: left;
+  font-size: 14px;
+}
+.author {
+  font-size: 10px;
+  padding: 0.5rem;
+  float: right;
+}
+.author-logo img {
+  padding: 5px;
+  width: 50px;
+  border-radius: 25px;
+}
+.author-logo {
+  float: right;
+}
+.author-info {
+  margin-top: 10px;
+  float: left;
+}
+.author-info a {
+  font-weight: bolder;
+  color: deepskyblue;
+}
 @import "mobile";

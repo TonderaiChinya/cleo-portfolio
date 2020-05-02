@@ -1,0 +1,17 @@
+{
+  "name": "tonderai",
+  "version": "1.0.0",
+  "description": "tonderai chinya portfolio",
+  "main": "index.js",
+  "homepage": "https://tonderaichinya.github.io/My-Portfolio",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "Tonderai Chinya",
+  "license": "MIT",
+  "dependencies": {
+    "gh-pages": "^2.2.0",
+    "node-sass": "^4.13.1"
+  }
+}
